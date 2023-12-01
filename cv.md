@@ -25,8 +25,13 @@ function high(string){
     if (score > high_score) {
       high_score = score;
       high_word = words[i];
-    }   
+    }  
   }
   return high_word; 
 }
 ```
+## Education
+Secondary vocational education at Polzunov Ural State College
+## Languages
+Russian: native speaker
+English: A2 (keep learning)
