@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ForlornFox.github.io/rsschool-cv/
