@@ -22,7 +22,77 @@
     </header>
 
     <main>
-        
+      <section class="section" id="name">
+        <h1>Ilya Vlasov</h1>
+    </section>
+      <section class="section" id="contacts">
+        <h2>Contact information</h2>
+        <p>
+            <ul>
+                <li>Location: Russia, Ekaterinburg</li>
+                <li>Phone: +7-902-259-30-71</li>
+                <li>Email: zzennoxx@mail.ru</li>
+                <li>GitHub: <a href="https://github.com/ForlornFox/">ForlornFox</a></li>
+                <li>Telegram: @Forlorn_Fox</li>
+                <li>Discord: for1orn</li>
+            </ul>
+        </p>
+    </section>
+        <section class="section" id="summary">
+          <h2>About me</h2>
+          <p>I am 23 years old. I graduated from the Ural State College named after 
+            Polzunov with a degree in Information Security. At the moment I am studying by 
+            correspondence and strive for self-development. I hope that the rsschool 
+            courses will help me with this.
+          </p>
+    </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <p>
+          <ul>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Git/GitHub</li>
+            <li>Photoshop</li>
+          </ul>
+        </p>
+      </section>
+      <section class="section" id="code">
+        <h2>Code Example</h2>
+        <p>
+          <code>
+            function high(string){
+              let words = string.split(' '); // Splitting a string into an array of words 
+              let high_score = 0;
+              let high_word = '';
+              for (let i = 0; i < words.length; i++) { // Search for the highest score word
+                let nums = words[i].toLowerCase().split('').map(char => char.charCodeAt() - 96);
+                let score = nums.reduce(function(x, y){return x + y;}, 0);
+                if (score > high_score) {
+                  high_score = score;
+                  high_word = words[i];
+                }  
+              }
+              return high_word; 
+            }
+          </code>
+        </p>
+      </section>
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <p>
+          Secondary vocational education at Polzunov Ural State College
+        </p>
+      </section>
+      <section class="section" id="Languages">
+        <h2>Languages</h2>
+        <p>
+          <ul>
+            <li>Russian: native speaker</li>
+            <li>English: A2 (keep learning)</li>
+          </ul>
+        </p>
+      </section>
     </main>
 
     <footer>
