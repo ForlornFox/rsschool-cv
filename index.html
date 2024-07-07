@@ -16,7 +16,7 @@
               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#Languages" class="nav-link">languages</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
             </ul>
           </nav>
     </header>
@@ -24,6 +24,7 @@
     <main>
       <section class="section" id="name">
         <h1>Ilya Vlasov</h1>
+        <img src="./assets/avatar.jpg" alt="avatar" />
     </section>
       <section class="section" id="contacts">
         <h2>Contact information</h2>
@@ -65,7 +66,7 @@
               let words = string.split(' '); // Splitting a string into an array of words 
               let high_score = 0;
               let high_word = '';
-              for (let i = 0; i < words.length; i++) { // Search for the highest score word
+              for (let i = 0; i &lt; words.length; i++) { // Search for the highest score word
                 let nums = words[i].toLowerCase().split('').map(char => char.charCodeAt() - 96);
                 let score = nums.reduce(function(x, y){return x + y;}, 0);
                 if (score > high_score) {
@@ -84,7 +85,7 @@
           Secondary vocational education at Polzunov Ural State College
         </p>
       </section>
-      <section class="section" id="Languages">
+      <section class="section" id="languages">
         <h2>Languages</h2>
         <p>
           <ul>
@@ -96,7 +97,7 @@
     </main>
 
     <footer>
-
+      
     </footer>
     
 </body>
