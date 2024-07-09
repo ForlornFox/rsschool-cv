@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  color: rgb(126, 28, 28);
+}
+
 body {
   display: flex;
   flex-direction: column;
