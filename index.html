@@ -2,10 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ForlornFox</title>
+    <title>CV3 Ilya Vlasov</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/site.ico" />
 </head>
+
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+                </ul>
+              </nav>
+        </header>
+
+
+        <main class ="main">
+            <div class="main-container">
+                
+                <section class="section avatar" id="avatar">
+                    <img src="./assets/avatar.jpg" width="240" height="300" alt="avatar"/>
+                </section>
+
+                <section class="section section-title" id="title">                    
+                    <div class="section-name-title">
+                        <h1><br>Ilya Vlasov</h1>
+                    </div>
+                </section>
+
+                <section class="section" id="contacts">
+                    <h2>Contact information</h2>
+                    <p>
+                      <ul>
+                           <li>Location: Russia, Ekaterinburg</li>
+                           <li>Phone: +7-902-259-30-71</li>
+                           <li>Email: zzennoxx@mail.ru</li>
+                           <li>GitHub: <a href="https://github.com/ForlornFox/" title="github">ForlornFox</a></li>
+                           <li>Telegram: @Forlorn_Fox</li>
+                           <li>Discord: for1orn</li>
+                      </ul>
+                    </p>
+                </section>
+
+                <section class="section" id="summary">
+                    <h2>About me</h2>
+                    <p>I am 23 years old. I graduated from the Ural State College named after 
+                        Polzunov with a degree in Information Security. At the moment I am studying by 
+                        correspondence and strive for self-development. I hope that the rsschool 
+                        courses will help me with this.
+                    </p>
+                </section>
+
+                <section class="section" id="skills">
+                    <h2>Skills</h2>
+                    <p>
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                        <li>Git/GitHub</li>
+                        <li>Photoshop</li>
+                      </ul>
+                    </p>
+                </section>
+
+                <section class="section" id="code">
+                    <h2>Code Example</h2>
+                    <div class="section-code">
+                      <p>
+                        <pre>
+                          <code>
+function sum (numbers) {
+  let sum = 0;
+  for (let i = 0; i &lt; numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
+};</code>
+                        </pre>
+                      </p>
+                    </div>
+                  </section>
+
+                  <section class = "section" id="courses">
+                    <h2>Courses</h2>
+                    <p>
+                      <ul>
+                        <li>RsSchool: <a href="https://rs.school/courses/javascript-ru" title="rs.school">JavaScript/Front-end Course</a></li>
+                      </ul>
+                    </p>
+                  </section>
+
+                  <section class = "section" id="projects">
+                    <h2>Projects</h2>
+                    <p>
+                      <ul>
+                        <li>
+                          <a href="https://ForlornFox.github.io/rsschool-cv/" title="github">CV#3</a>
+                        </li>
+                      </ul>
+                    </p>
+                  </section>
+
+                  <section class="section" id="education">
+                    <h2>Education</h2>
+                    <p>
+                      Secondary vocational education at Polzunov Ural State College
+                    </p>
+                  </section>
+                  
+                  <section class="section" id="languages">
+                    <h2>Languages</h2>
+                    <p>
+                      <ul>
+                        <li>Russian: native speaker</li>
+                        <li>English: A2 (keep learning)</li>
+                      </ul>
+                    </p>
+                  </section>
+
+
+
+            </div>        
+        </main>
+
+
+        <footer class="footer">
+            <div class="section-footer"> 2024    <a href="https://github.com/ForlornFox" class="github-link">ForlornFox</a></div>
+            <a class="section-footer" href="https://rs.school/courses/javascript-preschool-ru/">
+              <img src="./assets/rs-school.jpg" width="200" height="100">
+            </a>
+        </footer>
+
+    </div>
 </body>
-</html>
