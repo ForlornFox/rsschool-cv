@@ -63,8 +63,8 @@ body {
   text-decoration: none;
   font-family: 'OpenSans-Italic', sans-serif;
   color:#FF8000;
-  padding: 0 30px;
-  line-height: 35px;
+  padding: 0 25px;
+  line-height: 30px;
   font-size: 30px;
   transition: 0.3s;
 }
@@ -79,6 +79,7 @@ body {
   margin: 0;
   padding: 0;
   flex: 1 1 auto;
+  background-color: #ffcd9a;
 }
 
 .main-container { 
@@ -89,15 +90,32 @@ body {
 }
 
 .section {
-  width: 50%;
+  width: 49%;
   padding: 10px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #FF8000;
-  border-radius: 20%;
+  border-bottom: 2px solid #ffbd7c;
+  background-color: #ffe3c7;
+  margin: 3px 3px 3px 3px;
 }
+
+.section-main-head {
+  width: 100%;
+  border-bottom: 10px solid #ffab57;
+  margin: 10px;
+}
+
+.div-main-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 .section-title {
   font-family: 'OpenSans', sans-serif;
+  margin: auto;
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
@@ -106,24 +124,22 @@ body {
 }
 
 .section-name-title {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  text-align: center;  
   text-transform: uppercase;
+  color: #8e4700;
 }
 
 .section-code {
   text-align: left;
-  border-radius: 15px;
   margin: 0;
   padding: 0;
-  background-color:#c079d6;
+  border-left: 5px solid #a53232;
+  background-color: #ffae5d;
 }
 
 .avatar {
-  border-radius: 20%;
+  border-radius: 50%;
   margin: 0 auto;
 }
 
@@ -153,8 +169,6 @@ body {
   width: 100%;
   padding: 10px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #FF8000;
-  border-radius: 30%;
 }
 .avatar {
   border-radius: 20%;
@@ -167,6 +181,7 @@ body {
 .section-name-title {
   margin: auto;
 }
+
 .nav-link {
   text-decoration: none;
   font-family: 'OpenSans-Italic', sans-serif;
