@@ -100,6 +100,12 @@ body {
 }
 
 .wrapper-main-head {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #000000;
   width: 100%;
   border-bottom: 10px solid #ffab57;
   margin: 10px;
@@ -117,10 +123,7 @@ body {
   align-items: center;
   width: 100%;
 }
-
-
 .section-title {
-  font-family: 'OpenSans', sans-serif;
   margin: auto;
   font-size: 30px;
   font-weight: 800;
